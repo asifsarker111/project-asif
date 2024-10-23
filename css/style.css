@@ -28,7 +28,7 @@
    text-decoration: none;
    text-transform: capitalize;
    list-style: none;
-   transition: all 0.5 linear;
+   transition: all 0.5s linear;
    scroll-behavior: smooth;
 }
 
@@ -168,7 +168,7 @@ header {
     top: 5rem;
     overflow: hidden;
     margin-bottom: 2rem;
-    background-color: var(--black);
+    background-color: var(--black);   
 }
 
 .header_container {
@@ -205,9 +205,9 @@ header::before {
     position: absolute;
     background-color: var(--bg);
     width: 100%;
-    height: 5rem;
-    bottom: 0;
-    margin-bottom: -3rem;
+    height: 5rem;  
+    bottom: 0;    
+    margin-bottom: -3.1rem;
     z-index: 99;
     transform: skewY(-2deg);
     transform-origin: left;
@@ -220,7 +220,7 @@ header::before {
 
 /* =====ABOUT ME===== */
 .about {
-    margin-top: 5rem;
+    margin-top: 7rem;
     text-align: center;
 }
 
@@ -835,7 +835,7 @@ footer ul li a:hover {
     }
 
     .btn {
-        padding: 0,3rem 1rem;
+        padding: 0.3rem 1rem;
     }
     .about_container {
         flex-direction: column;
